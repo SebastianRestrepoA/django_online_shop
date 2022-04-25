@@ -1,0 +1,23 @@
+<head>
+
+    <title>
+        Agregar producto
+    </title>
+</head>
+
+<body>
+    <h1>Agregar nuevo producto: </h1>
+
+    <form action="/agregar_producto/" method="POST">{% csrf_token%}
+
+        <p>nombre: <input type="text" name="nombre"></p>
+        <p>categoria: <input type="text" name="categoria"></p>
+        <p>costo: <input type="text" name="costo"></p>
+        <p>stock: <input type="text" name="stock"></p>
+        <p>descripcion: <input type="text" name="descripcion"></p>
+        <input type="submit" value="Agregar producto">
+    </form>
+    <form action="/mostrar_productos/" method="POST">{% csrf_token%}
+        <input type="submit" value="Ver productos">
+    </form>
+</body>

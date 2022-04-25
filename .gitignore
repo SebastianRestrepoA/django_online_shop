@@ -1,0 +1,14 @@
+.DS_Store
+.idea
+*__pycache__*
+*.pyc 
+*.xls
+*.xlsx
+*.xlsm
+*.pickle
+.vscode
+
+venv
+.venv/
+.env
+.*-venv/
