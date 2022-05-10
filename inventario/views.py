@@ -1,5 +1,3 @@
-import re
-from unicodedata import category, name
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from inventario.models import Productos

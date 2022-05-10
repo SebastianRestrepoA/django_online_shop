@@ -1,0 +1,1 @@
+web gunicorn tienda_online.wsgi
